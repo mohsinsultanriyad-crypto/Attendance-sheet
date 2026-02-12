@@ -1,4 +1,4 @@
-const CACHE_NAME = "attendance-pro-v3";
+const CACHE_NAME = "attendance-pro-v6";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
