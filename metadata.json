@@ -1,0 +1,7 @@
+{
+  "name": "Attendance Pro Offline",
+  "description": "A high-performance offline PWA for managing worker attendance and overtime tracking with no server required.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
