@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { db } from '../db';
-import { Worker, AttendanceEntry } from '../types';
+import { db } from '../../db';
+import { Worker, AttendanceEntry } from '../../types';
 import { format, startOfMonth, endOfMonth, parseISO, isWithinInterval } from 'date-fns';
 import { Download, ChevronLeft, ChevronRight, Wallet, Clock, Ban, Banknote, CheckCircle2 } from 'lucide-react';
 

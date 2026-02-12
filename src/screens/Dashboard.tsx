@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { db } from '../db';
+import { db } from '../../db';
 import { format, startOfMonth, endOfMonth, subDays, isWithinInterval, parseISO } from 'date-fns';
 import { 
   Users, 

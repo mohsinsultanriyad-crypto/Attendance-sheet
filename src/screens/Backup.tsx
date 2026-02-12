@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { db } from '../db';
+import { db } from '../../db';
 import { Download, Upload, AlertTriangle, CheckCircle2, Database } from 'lucide-react';
 
 const Backup: React.FC = () => {

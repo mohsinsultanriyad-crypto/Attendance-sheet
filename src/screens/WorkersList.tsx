@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { db } from '../db';
-import { Worker, WorkerStatus } from '../types';
+import { db } from '../../db';
+import { Worker, WorkerStatus } from '../../types';
 import { Search, Plus, Edit2, Trash2, UserCircle2, ShieldCheck, ShieldAlert, Banknote } from 'lucide-react';
 
 const WorkersList: React.FC<{ onNavigate: (v: any) => void }> = ({ onNavigate }) => {
