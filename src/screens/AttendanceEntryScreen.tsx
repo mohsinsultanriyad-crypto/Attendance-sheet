@@ -4,7 +4,7 @@ import { Worker, AttendanceEntry, WorkerStatus } from "../../types";
 import { calculateHours } from "../utils/timeUtils";
 import { format } from "date-fns";
 import { Save, AlertCircle, Calendar, Ban, History, Banknote, CheckCircle2 } from "lucide-react";
-import { sheetUpsert, sheetGetAll, SheetEntry } from "../../api/sheetApi";
+import { sheetUpsert, sheetGetAll, SheetEntry } from "../sheetApi";
 
 const AttendanceEntryScreen: React.FC<{ onNavigate: (v: any) => void; entryId?: string }> = ({
   onNavigate,
